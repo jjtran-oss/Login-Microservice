@@ -28,6 +28,4 @@ Regardless of choice, all above paths will still have a resulting final 'alert' 
 The main result we are after here is the "boolean" value which will confirm whether proper authorization on login has occurred or not, and to subsequently continue or exit the program.  The response from the server is received as an encoded string, which must be decoded, then converted to integer type and then subsequently boolean to determine whether it is a TRUE or FALSE value.
 
 ## UML Diagram
-<p align="center">
-  <img src="login_uml.png">
-</p>
+![login_uml.png](https://github.com/jjtran-oss/Login-Microservice/blob/master/login_uml.PNG?raw=true)
